@@ -1,0 +1,15 @@
+# Output products list for <mult_cos>
+_xmsgs\pn_parser.xmsgs
+mult_cos.asy
+mult_cos.gise
+mult_cos.ngc
+mult_cos.sym
+mult_cos.v
+mult_cos.veo
+mult_cos.xco
+mult_cos.xise
+mult_cos\doc\mult_gen_ds255.pdf
+mult_cos\doc\mult_gen_v11_2_readme.txt
+mult_cos\doc\mult_gen_v11_2_vinfo.html
+mult_cos_flist.txt
+mult_cos_xmdf.tcl

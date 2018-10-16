@@ -1,0 +1,572 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Matthew/Desktop/tpzxh/dds/DDS1_20181012
+T_opt
+!s110 1539523454
+VUzF?FlU70AZ`gm>5E;VRM1
+04 2 4 work tb fast 0
+04 4 4 work glbl fast 0
+=1-1831bfb60b7e-5bc3437d-135-2008
+o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vadd
+Z2 !s110 1539523450
+!i10b 1
+!s100 cikd6G?i6^37@RVGX_TZR1
+Ico7iIj1V;TdQ@ZjLV1@2L0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1539336107
+8ipcore_dir/add.v
+Fipcore_dir/add.v
+Z4 L0 36
+Z5 OL;L;10.5;63
+r1
+!s85 0
+31
+Z6 !s108 1539523450.000000
+!s107 ipcore_dir/add.v|
+!s90 -reportprogress|300|ipcore_dir/add.v|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vaddsincos
+Z8 !s110 1539523451
+!i10b 1
+!s100 2TiefIC7>IJH7=Ze_>OSj1
+IfT<@4fNJZ99[;9SE[nf[42
+R3
+R0
+w1539351949
+8ipcore_dir/addsincos.v
+Fipcore_dir/addsincos.v
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1539523451.000000
+!s107 ipcore_dir/addsincos.v|
+!s90 -reportprogress|300|ipcore_dir/addsincos.v|
+!i113 0
+R7
+R1
+vcarry
+Z10 !s110 1539523452
+!i10b 1
+!s100 MeDgQLWc_TzZj2liCk[g11
+IGnW`iM<COKlG1K2SkEoCm3
+R3
+R0
+w1539352045
+8carry.v
+Fcarry.v
+Z11 L0 21
+R5
+r1
+!s85 0
+31
+Z12 !s108 1539523452.000000
+!s107 carry.v|
+!s90 -reportprogress|300|carry.v|
+!i113 0
+R7
+R1
+vDDS
+R2
+!i10b 1
+!s100 m6MGIG`JoGSjXAnONjCS82
+ILCgAgEfQlGTSHgU:hLg8C3
+R3
+R0
+w1539319916
+8ipcore_dir/DDS.v
+Fipcore_dir/DDS.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ipcore_dir/DDS.v|
+!s90 -reportprogress|300|ipcore_dir/DDS.v|
+!i113 0
+R7
+R1
+n@d@d@s
+vglbl
+R10
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+IJ82^7^Z;c>GHXFnHHaGoa3
+R3
+R0
+w1381681120
+8C:/Xilinx/Xilinx_ISE/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FC:/Xilinx/Xilinx_ISE/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Xilinx/Xilinx_ISE/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|C:/Xilinx/Xilinx_ISE/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+R7
+R1
+vgt_generate
+R10
+!i10b 1
+!s100 5k>MdLjF0nC<5C7lgUEX[1
+I84PP<LCRljoEkea5<Jj`f3
+R3
+R0
+w1539522192
+8gt_generate.v
+Fgt_generate.v
+R11
+R5
+r1
+!s85 0
+31
+R12
+!s107 gt_generate.v|
+!s90 -reportprogress|300|gt_generate.v|
+!i113 0
+R7
+R1
+vhilbert
+R2
+!i10b 1
+!s100 TW`AfVoEPinAVE^Xi^Mao0
+I6Z_n0FYX^f1b_=QO:^A<n2
+R3
+R0
+w1539339288
+8ipcore_dir/hilbert.v
+Fipcore_dir/hilbert.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ipcore_dir/hilbert.v|
+!s90 -reportprogress|300|ipcore_dir/hilbert.v|
+!i113 0
+R7
+R1
+vinter_feedback_rand_1
+R8
+!i10b 1
+!s100 d0o1RGNaAWIJXN1Q^33fZ1
+I>VnRC;Yf`W3hC[NNUU`GH1
+R3
+R0
+Z13 w1538649384
+Z14 8inter_feedback_rand.v
+Z15 Finter_feedback_rand.v
+L0 22
+R5
+r1
+!s85 0
+31
+R9
+Z16 !s107 inter_feedback_rand.v|
+Z17 !s90 -reportprogress|300|inter_feedback_rand.v|
+!i113 0
+R7
+R1
+vinter_feedback_rand_2
+R8
+!i10b 1
+!s100 ?6GY?01:`i>;X2Jgho_2k2
+I3NWgd6M_7NO>;V9B=:Kd90
+R3
+R0
+R13
+R14
+R15
+L0 44
+R5
+r1
+!s85 0
+31
+R9
+R16
+R17
+!i113 0
+R7
+R1
+vinter_feedback_rand_3
+R8
+!i10b 1
+!s100 NTUR3F;JCh?H;cQgz6W[W2
+IVP2JnT=4Z>XO<oe4cX]MU0
+R3
+R0
+R13
+R14
+R15
+L0 76
+R5
+r1
+!s85 0
+31
+R9
+R16
+R17
+!i113 0
+R7
+R1
+vinter_feedback_rand_4
+R8
+!i10b 1
+!s100 m7m3ole19]:0FnDLhFRod2
+IaWf3:?7U<:3oa]Tn4>FIz2
+R3
+R0
+R13
+R14
+R15
+L0 98
+R5
+r1
+!s85 0
+31
+R9
+R16
+R17
+!i113 0
+R7
+R1
+vLog
+R8
+!i10b 1
+!s100 mIz@YnP3QV4W4m0BV:E:z1
+IU^M91WP^k:hW8bFHHa5Zk3
+R3
+R0
+w1538661509
+8ipcore_dir/Log.v
+Fipcore_dir/Log.v
+Z18 L0 39
+R5
+r1
+!s85 0
+31
+R9
+!s107 ipcore_dir/Log.v|
+!s90 -reportprogress|300|ipcore_dir/Log.v|
+!i113 0
+R7
+R1
+n@log
+vmult_cos
+R8
+!i10b 1
+!s100 8;<Y0DUSece`IXMLgE?e<2
+IN[Sm=9aIATgWA]jX`eFU?2
+R3
+R0
+w1539351818
+8ipcore_dir/mult_cos.v
+Fipcore_dir/mult_cos.v
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 ipcore_dir/mult_cos.v|
+!s90 -reportprogress|300|ipcore_dir/mult_cos.v|
+!i113 0
+R7
+R1
+vMult_signed
+R2
+!i10b 1
+!s100 ;UWV]:_eBiHT^NDC8k7m<2
+ITC^zAI9g4Pc@c<`BlO2<D0
+R3
+R0
+w1538646228
+8ipcore_dir/Mult_signed.v
+Fipcore_dir/Mult_signed.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ipcore_dir/Mult_signed.v|
+!s90 -reportprogress|300|ipcore_dir/Mult_signed.v|
+!i113 0
+R7
+R1
+n@mult_signed
+vmult_sin
+R8
+!i10b 1
+!s100 @9k:d_P3SXC<^5:^1[8EC3
+I4;giAzIo[@_dLEAHO3Pgn0
+R3
+R0
+w1539351773
+8ipcore_dir/mult_sin.v
+Fipcore_dir/mult_sin.v
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 ipcore_dir/mult_sin.v|
+!s90 -reportprogress|300|ipcore_dir/mult_sin.v|
+!i113 0
+R7
+R1
+vmulti_10
+R8
+!i10b 1
+!s100 660@Vh3KTZQGI_CY3GG2Y0
+IzEFRjF@KfKj7kO>O^9_N@0
+R3
+R0
+w1539523416
+8ipcore_dir/multi_10.v
+Fipcore_dir/multi_10.v
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 ipcore_dir/multi_10.v|
+!s90 -reportprogress|300|ipcore_dir/multi_10.v|
+!i113 0
+R7
+R1
+vmultX10
+R2
+!i10b 1
+!s100 nXS>5`;z@lUNFX8]V5Jjo1
+Ik7c1DU2fc6mF5lBbf2BI@3
+R3
+R0
+w1539320780
+8ipcore_dir/multX10.v
+Fipcore_dir/multX10.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ipcore_dir/multX10.v|
+!s90 -reportprogress|300|ipcore_dir/multX10.v|
+!i113 0
+R7
+R1
+nmult@x10
+vnoise_gen
+R10
+!i10b 1
+!s100 FfafIP5=C2lgNMh_X9=L=3
+I<lfe2zAPjo<beLEVgIj0Z0
+R3
+R0
+w1538641774
+8noise_gen.v
+Fnoise_gen.v
+R11
+R5
+r1
+!s85 0
+31
+R12
+!s107 noise_gen.v|
+!s90 -reportprogress|300|noise_gen.v|
+!i113 0
+R7
+R1
+vPLL
+!s110 1539523449
+!i10b 1
+!s100 gc]SOU[F6clRhfilj11zH1
+IYYMK`h1Sfjdi`[M^;6?7;1
+R3
+R0
+w1538650159
+8ipcore_dir/PLL.v
+Fipcore_dir/PLL.v
+L0 68
+R5
+r1
+!s85 0
+31
+!s108 1539523449.000000
+!s107 ipcore_dir/PLL.v|
+!s90 -reportprogress|300|ipcore_dir/PLL.v|
+!i113 0
+R7
+R1
+n@p@l@l
+vrand_gen
+R10
+!i10b 1
+!s100 3f?hlOjKc`KJh<GnX0H9<0
+IFgGA;[^C@]b?V:n[EfQi12
+R3
+R0
+w1538648048
+8rand_gen.v
+Frand_gen.v
+R11
+R5
+r1
+!s85 0
+31
+R12
+!s107 rand_gen.v|
+!s90 -reportprogress|300|rand_gen.v|
+!i113 0
+R7
+R1
+vrandom_gen
+R10
+!i10b 1
+!s100 ]9IR`]I;j23G`9K1;kTmi0
+IPKhZR7PhYP]JCZ[gzS]`@2
+R3
+R0
+w1538655923
+8random_gen.v
+Frandom_gen.v
+L0 1
+R5
+r1
+!s85 0
+31
+R12
+!s107 random_gen.v|
+!s90 -reportprogress|300|random_gen.v|
+!i113 0
+R7
+R1
+vrst_gen
+R10
+!i10b 1
+!s100 C4BMUYTM4>:ggQQhFn9GQ0
+Iz=a0bz?8^k[nLFM;enR;02
+R3
+R0
+w1539320548
+8rst_gen.v
+Frst_gen.v
+L0 1
+R5
+r1
+!s85 0
+31
+R12
+!s107 rst_gen.v|
+!s90 -reportprogress|300|rst_gen.v|
+!i113 0
+R7
+R1
+vSin
+R8
+!i10b 1
+!s100 D3SEW8On>eM776kf=`m4a2
+InB[U4bAof0[oaCW2Ua]FI3
+R3
+R0
+w1538661409
+8ipcore_dir/Sin.v
+Fipcore_dir/Sin.v
+R18
+R5
+r1
+!s85 0
+31
+R9
+!s107 ipcore_dir/Sin.v|
+!s90 -reportprogress|300|ipcore_dir/Sin.v|
+!i113 0
+R7
+R1
+n@sin
+vsin_cos
+R8
+!i10b 1
+!s100 0Z>;D42[Fe<HTBQd>UT`;3
+IOO[EINNY?nW@IFP_HkLUV3
+R3
+R0
+w1538667824
+8ipcore_dir/sin_cos.v
+Fipcore_dir/sin_cos.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ipcore_dir/sin_cos.v|
+!s90 -reportprogress|300|ipcore_dir/sin_cos.v|
+!i113 0
+R7
+R1
+vtb
+R10
+!i10b 1
+!s100 HVIoJg633ZhWN=5dQ?a0M3
+II9ikk^X2U^@`W[HA>GZ:i3
+R3
+R0
+w1538748156
+8tb.v
+Ftb.v
+L0 25
+R5
+r1
+!s85 0
+31
+R12
+!s107 tb.v|
+!s90 -reportprogress|300|tb.v|
+!i113 0
+R7
+R1
+vtop
+R10
+!i10b 1
+!s100 f5e`cQ<ZT`@CW^67_GZ[a3
+IN^_OP37jnHWAXE6ObSW>>3
+R3
+R0
+w1539521429
+8top.v
+Ftop.v
+R11
+R5
+r1
+!s85 0
+31
+R12
+!s107 top.v|
+!s90 -reportprogress|300|top.v|
+!i113 0
+R7
+R1

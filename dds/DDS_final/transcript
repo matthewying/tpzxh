@@ -1,0 +1,422 @@
+# Reading C:/modeltech64_10.5/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {tb.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:09 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/PLL.v 
+# -- Compiling module PLL
+# 
+# Top level modules:
+# 	PLL
+# End time: 21:24:09 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:10 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/DDS.v 
+# -- Compiling module DDS
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	DDS
+# 	glbl
+# End time: 21:24:10 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:10 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/Mult_signed.v 
+# -- Compiling module Mult_signed
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	Mult_signed
+# 	glbl
+# End time: 21:24:10 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:10 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/multX10.v 
+# -- Compiling module multX10
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	multX10
+# 	glbl
+# End time: 21:24:10 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:10 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/add.v 
+# -- Compiling module add
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	add
+# 	glbl
+# End time: 21:24:10 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:10 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/hilbert.v 
+# -- Compiling module hilbert
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	hilbert
+# 	glbl
+# End time: 21:24:10 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:10 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/sin_cos.v 
+# -- Compiling module sin_cos
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	sin_cos
+# 	glbl
+# End time: 21:24:11 on Oct 14,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:11 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/mult_sin.v 
+# -- Compiling module mult_sin
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	mult_sin
+# 	glbl
+# End time: 21:24:11 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:11 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/mult_cos.v 
+# -- Compiling module mult_cos
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	mult_cos
+# 	glbl
+# End time: 21:24:11 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:11 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/addsincos.v 
+# -- Compiling module addsincos
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	addsincos
+# 	glbl
+# End time: 21:24:11 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:11 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/multi_10.v 
+# -- Compiling module multi_10
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	multi_10
+# 	glbl
+# End time: 21:24:11 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:11 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/Sin.v 
+# -- Compiling module Sin
+# 
+# Top level modules:
+# 	Sin
+# End time: 21:24:11 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:11 on Oct 14,2018
+# vlog -reportprogress 300 ipcore_dir/Log.v 
+# -- Compiling module Log
+# 
+# Top level modules:
+# 	Log
+# End time: 21:24:11 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:11 on Oct 14,2018
+# vlog -reportprogress 300 inter_feedback_rand.v 
+# -- Compiling module inter_feedback_rand_1
+# -- Compiling module inter_feedback_rand_2
+# -- Compiling module inter_feedback_rand_3
+# -- Compiling module inter_feedback_rand_4
+# 
+# Top level modules:
+# 	inter_feedback_rand_1
+# 	inter_feedback_rand_2
+# 	inter_feedback_rand_3
+# 	inter_feedback_rand_4
+# End time: 21:24:11 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:12 on Oct 14,2018
+# vlog -reportprogress 300 rand_gen.v 
+# -- Compiling module rand_gen
+# 
+# Top level modules:
+# 	rand_gen
+# End time: 21:24:12 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:12 on Oct 14,2018
+# vlog -reportprogress 300 noise_gen.v 
+# -- Compiling module noise_gen
+# 
+# Top level modules:
+# 	noise_gen
+# End time: 21:24:12 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:12 on Oct 14,2018
+# vlog -reportprogress 300 rst_gen.v 
+# -- Compiling module rst_gen
+# 
+# Top level modules:
+# 	rst_gen
+# End time: 21:24:12 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:12 on Oct 14,2018
+# vlog -reportprogress 300 random_gen.v 
+# -- Compiling module random_gen
+# 
+# Top level modules:
+# 	random_gen
+# End time: 21:24:12 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:12 on Oct 14,2018
+# vlog -reportprogress 300 gt_generate.v 
+# -- Compiling module gt_generate
+# 
+# Top level modules:
+# 	gt_generate
+# End time: 21:24:12 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:12 on Oct 14,2018
+# vlog -reportprogress 300 carry.v 
+# -- Compiling module carry
+# 
+# Top level modules:
+# 	carry
+# End time: 21:24:12 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:12 on Oct 14,2018
+# vlog -reportprogress 300 top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:24:12 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:12 on Oct 14,2018
+# vlog -reportprogress 300 tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:24:12 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:24:12 on Oct 14,2018
+# vlog -reportprogress 300 C:/Xilinx/Xilinx_ISE/14.7/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 21:24:12 on Oct 14,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work work.tb glbl 
+# Start time: 21:24:12 on Oct 14,2018
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.PLL(fast)
+# Loading unisims_ver.IBUFGDS(fast)
+# Loading unisims_ver.MMCM_ADV(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading work.rst_gen(fast)
+# Loading work.random_gen(fast)
+# Loading work.rand_gen(fast)
+# Loading work.inter_feedback_rand_1(fast)
+# Loading work.inter_feedback_rand_2(fast)
+# Loading work.inter_feedback_rand_3(fast)
+# Loading work.inter_feedback_rand_4(fast)
+# Loading work.noise_gen(fast)
+# Loading work.Sin(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_mem_module(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast__1)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_softecc_output_reg_stage(fast)
+# Loading work.Log(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3(fast__1)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_mem_module(fast__1)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast__2)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast__3)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_softecc_output_reg_stage(fast__1)
+# Loading work.Mult_signed(fast)
+# Loading unisims_ver.LUT3(fast)
+# Loading unisims_ver.LUT2(fast)
+# Loading unisims_ver.LUT2(fast__1)
+# Loading unisims_ver.LUT4(fast)
+# Loading unisims_ver.FDRE(fast)
+# Loading unisims_ver.LUT2(fast__2)
+# Loading unisims_ver.MUXCY(fast)
+# Loading unisims_ver.XORCY(fast)
+# Loading unisims_ver.MULT_AND(fast)
+# Loading unisims_ver.GND(fast)
+# Loading unisims_ver.VCC(fast)
+# Loading work.DDS(fast)
+# Loading unisims_ver.FDE(fast)
+# Loading unisims_ver.SRLC16E(fast)
+# Loading unisims_ver.RAMB36E1(fast)
+# Loading unisims_ver.RB36_INTERNAL_VLOG(fast)
+# Loading unisims_ver.RAMB36E1(fast__1)
+# Loading unisims_ver.RB36_INTERNAL_VLOG(fast__1)
+# Loading unisims_ver.LUT1(fast)
+# Loading unisims_ver.LUT2(fast__3)
+# Loading unisims_ver.LUT6(fast)
+# Loading unisims_ver.LUT5(fast)
+# Loading unisims_ver.LUT6(fast__1)
+# Loading unisims_ver.FDE(fast__1)
+# Loading unisims_ver.FD(fast)
+# Loading work.gt_generate(fast)
+# Loading work.multX10(fast)
+# Loading work.add(fast)
+# Loading unisims_ver.DSP48E(fast)
+# Loading work.hilbert(fast)
+# Loading unisims_ver.SRLC32E(fast)
+# Loading unisims_ver.DSP48E1(fast)
+# Loading unisims_ver.DSP48E1(fast__1)
+# Loading unisims_ver.LUT2(fast__4)
+# Loading unisims_ver.LUT6(fast__2)
+# Loading unisims_ver.LUT6(fast__3)
+# Loading unisims_ver.FDS(fast)
+# Loading unisims_ver.FDR(fast)
+# Loading work.multi_10(fast)
+# Loading work.carry(fast)
+# Loading work.sin_cos(fast)
+# Loading work.mult_sin(fast)
+# Loading work.mult_cos(fast)
+# Loading work.addsincos(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) gt_generate.v(242): [PCDPC] - Port size (40) does not match connection size (33) for port 's_axis_data_tdata'. The port definition is at: ipcore_dir/hilbert.v(37).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/gt_generate/hilbert File: ipcore_dir/hilbert.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#  Block Memory Generator CORE Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator CORE Generator module tb.uut.random_gen.noise_gen.Sin_inst.inst.native_mem_module.blk_mem_gen_v7_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator CORE Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator CORE Generator module tb.uut.random_gen.noise_gen.Log_inst.inst.native_mem_module.blk_mem_gen_v7_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+add wave -position insertpoint sim:/tb/uut/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.top(fast)
+# Loading work.PLL(fast)
+# Loading unisims_ver.IBUFGDS(fast)
+# Loading unisims_ver.MMCM_ADV(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading work.rst_gen(fast)
+# Loading work.random_gen(fast)
+# Loading work.rand_gen(fast)
+# Loading work.inter_feedback_rand_1(fast)
+# Loading work.inter_feedback_rand_2(fast)
+# Loading work.inter_feedback_rand_3(fast)
+# Loading work.inter_feedback_rand_4(fast)
+# Loading work.noise_gen(fast)
+# Loading work.Sin(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_mem_module(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast__1)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_softecc_output_reg_stage(fast)
+# Loading work.Log(fast)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3(fast__1)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_mem_module(fast__1)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast__2)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_output_stage(fast__3)
+# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_3_softecc_output_reg_stage(fast__1)
+# Loading work.Mult_signed(fast)
+# Loading unisims_ver.LUT3(fast)
+# Loading unisims_ver.LUT2(fast)
+# Loading unisims_ver.LUT2(fast__1)
+# Loading unisims_ver.LUT4(fast)
+# Loading unisims_ver.FDRE(fast)
+# Loading unisims_ver.LUT2(fast__2)
+# Loading unisims_ver.MUXCY(fast)
+# Loading unisims_ver.XORCY(fast)
+# Loading unisims_ver.MULT_AND(fast)
+# Loading unisims_ver.GND(fast)
+# Loading unisims_ver.VCC(fast)
+# Loading work.DDS(fast)
+# Loading unisims_ver.FDE(fast)
+# Loading unisims_ver.SRLC16E(fast)
+# Loading unisims_ver.RAMB36E1(fast)
+# Loading unisims_ver.RB36_INTERNAL_VLOG(fast)
+# Loading unisims_ver.RAMB36E1(fast__1)
+# Loading unisims_ver.RB36_INTERNAL_VLOG(fast__1)
+# Loading unisims_ver.LUT1(fast)
+# Loading unisims_ver.LUT2(fast__3)
+# Loading unisims_ver.LUT6(fast)
+# Loading unisims_ver.LUT5(fast)
+# Loading unisims_ver.LUT6(fast__1)
+# Loading unisims_ver.FDE(fast__1)
+# Loading unisims_ver.FD(fast)
+# Loading work.gt_generate(fast)
+# Loading work.multX10(fast)
+# Loading work.add(fast)
+# Loading unisims_ver.DSP48E(fast)
+# Loading work.hilbert(fast)
+# Loading unisims_ver.SRLC32E(fast)
+# Loading unisims_ver.DSP48E1(fast)
+# Loading unisims_ver.DSP48E1(fast__1)
+# Loading unisims_ver.LUT2(fast__4)
+# Loading unisims_ver.LUT6(fast__2)
+# Loading unisims_ver.LUT6(fast__3)
+# Loading unisims_ver.FDS(fast)
+# Loading unisims_ver.FDR(fast)
+# Loading work.multi_10(fast)
+# Loading work.carry(fast)
+# Loading work.sin_cos(fast)
+# Loading work.mult_sin(fast)
+# Loading work.mult_cos(fast)
+# Loading work.addsincos(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) gt_generate.v(242): [PCDPC] - Port size (40) does not match connection size (33) for port 's_axis_data_tdata'. The port definition is at: ipcore_dir/hilbert.v(37).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/gt_generate/hilbert File: ipcore_dir/hilbert.v
+run -all
+#  Block Memory Generator CORE Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator CORE Generator module tb.uut.random_gen.noise_gen.Sin_inst.inst.native_mem_module.blk_mem_gen_v7_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator CORE Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator CORE Generator module tb.uut.random_gen.noise_gen.Log_inst.inst.native_mem_module.blk_mem_gen_v7_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Causality operation skipped due to absence of debug database file
+# End time: 21:32:53 on Oct 14,2018, Elapsed time: 0:08:41
+# Errors: 0, Warnings: 3

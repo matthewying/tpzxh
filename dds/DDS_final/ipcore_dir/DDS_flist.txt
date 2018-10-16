@@ -1,0 +1,16 @@
+# Output products list for <DDS>
+DDS.asy
+DDS.gise
+DDS.ngc
+DDS.sym
+DDS.v
+DDS.veo
+DDS.xco
+DDS.xise
+DDS\doc\dds_compiler_v5_0_readme.txt
+DDS\doc\dds_compiler_v5_0_vinfo.html
+DDS\doc\ds794_dds_compiler.pdf
+DDS_flist.txt
+DDS_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+demo_tb\tb_DDS.vhd

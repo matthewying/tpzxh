@@ -1,0 +1,857 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc6vlx240t-1-ff1156
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\PLL.v" into library work
+Parsing module <PLL>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\Sin.v" into library work
+Parsing module <Sin>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\Mult_signed.v" into library work
+Parsing module <Mult_signed>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\Log.v" into library work
+Parsing module <Log>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\inter_feedback_rand.v" into library work
+Parsing module <inter_feedback_rand_1>.
+Parsing module <inter_feedback_rand_2>.
+Parsing module <inter_feedback_rand_3>.
+Parsing module <inter_feedback_rand_4>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\rand_gen.v" into library work
+Parsing module <rand_gen>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\noise_gen.v" into library work
+Parsing module <noise_gen>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\sin_cos.v" into library work
+Parsing module <sin_cos>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\mult_sin.v" into library work
+Parsing module <mult_sin>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\mult_cos.v" into library work
+Parsing module <mult_cos>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\multX10.v" into library work
+Parsing module <multX10>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\multi_10.v" into library work
+Parsing module <multi_10>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\hilbert.v" into library work
+Parsing module <hilbert>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\addsincos.v" into library work
+Parsing module <addsincos>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\add.v" into library work
+Parsing module <add>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\rst_gen.v" into library work
+Parsing module <rst_gen>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\random_gen.v" into library work
+Parsing module <random_gen>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\DDS.v" into library work
+Parsing module <DDS>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\gt_generate.v" into library work
+Parsing module <gt_generate>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\carry.v" into library work
+Parsing module <carry>.
+Analyzing Verilog file "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" into library work
+Parsing module <top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <top>.
+
+Elaborating module <PLL>.
+
+Elaborating module <IBUFGDS>.
+
+Elaborating module <MMCM_ADV(BANDWIDTH="OPTIMIZED",CLKOUT4_CASCADE="FALSE",CLOCK_HOLD="FALSE",COMPENSATION="ZHOLD",STARTUP_WAIT="FALSE",DIVCLK_DIVIDE=1,CLKFBOUT_MULT_F=5.0,CLKFBOUT_PHASE=0.0,CLKFBOUT_USE_FINE_PS="FALSE",CLKOUT0_DIVIDE_F=12.5,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT0_USE_FINE_PS="FALSE",CLKIN1_PERIOD=5.0,REF_JITTER1=0.01)>.
+
+Elaborating module <BUFG>.
+
+Elaborating module <rst_gen>.
+
+Elaborating module <random_gen>.
+
+Elaborating module <rand_gen>.
+
+Elaborating module <inter_feedback_rand_1>.
+
+Elaborating module <inter_feedback_rand_2>.
+
+Elaborating module <inter_feedback_rand_3>.
+
+Elaborating module <inter_feedback_rand_4>.
+
+Elaborating module <noise_gen>.
+
+Elaborating module <Sin>.
+WARNING:HDLCompiler:1499 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\Sin.v" Line 39: Empty module <Sin> remains a black box.
+
+Elaborating module <Log>.
+WARNING:HDLCompiler:1499 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\Log.v" Line 39: Empty module <Log> remains a black box.
+
+Elaborating module <Mult_signed>.
+
+Elaborating module <DDS>.
+
+Elaborating module <gt_generate>.
+
+Elaborating module <multX10>.
+
+Elaborating module <add>.
+
+Elaborating module <hilbert>.
+WARNING:HDLCompiler:189 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\gt_generate.v" Line 247: Size mismatch in connection of port <s_axis_data_tdata>. Formal port size is 40-bit while actual signal size is 33-bit.
+
+Elaborating module <multi_10>.
+WARNING:HDLCompiler:1127 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" Line 104: Assignment to p ignored, since the identifier is never used
+
+Elaborating module <carry>.
+
+Elaborating module <sin_cos>.
+
+Elaborating module <mult_sin>.
+
+Elaborating module <mult_cos>.
+
+Elaborating module <addsincos>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <top>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v".
+    Set property "KEEP = TRUE" for signal <sin_out>.
+    Set property "KEEP = TRUE" for signal <telementry>.
+    Set property "KEEP = TRUE" for signal <raging>.
+    Set property "KEEP = TRUE" for signal <telementryx1p1>.
+    Set property "KEEP = TRUE" for signal <g_t>.
+    Set property "KEEP = TRUE" for signal <g_t_delay>.
+    Set property "KEEP = TRUE" for signal <g_t_delay_50bit>.
+    Set property "KEEP = TRUE" for signal <g_t_hilbert>.
+    Set property "KEEP = TRUE" for signal <g_t_hilbert_d_100000>.
+    Set property "KEEP = TRUE" for signal <g_t_hilbert_final>.
+    Set property "KEEP = TRUE" for signal <cosine>.
+    Set property "KEEP = TRUE" for signal <sine>.
+    Set property "KEEP = TRUE" for signal <g_t_hilbertXsin>.
+    Set property "KEEP = TRUE" for signal <result>.
+    Set property "KEEP = TRUE" for signal <g_t_delayXcos>.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 86: Output port <m_axis_data_tvalid> of the instance <DDS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 95: Output port <telementry> of the instance <gt_generate> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 95: Output port <raging> of the instance <gt_generate> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 95: Output port <q> of the instance <gt_generate> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 95: Output port <p> of the instance <gt_generate> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 95: Output port <g_t> of the instance <gt_generate> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 95: Output port <g_t_hilbert> of the instance <gt_generate> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 95: Output port <g_t_hilbert_d_100000> of the instance <gt_generate> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 95: Output port <g_t_delay> of the instance <gt_generate> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 113: Output port <cosine> of the instance <carry> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 113: Output port <sine> of the instance <carry> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 113: Output port <g_t_hilbertXsin> of the instance <carry> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 113: Output port <g_t_delayXcos> of the instance <carry> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" line 113: Output port <result> of the instance <carry> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <top> synthesized.
+
+Synthesizing Unit <PLL>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\PLL.v".
+    Summary:
+	no macro.
+Unit <PLL> synthesized.
+
+Synthesizing Unit <rst_gen>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\rst_gen.v".
+    Found 1-bit register for signal <rst_meta>.
+    Found 5-bit register for signal <noise_en_cnt>.
+    Found 32-bit register for signal <sin1>.
+    Found 12-bit register for signal <cnt_32khz>.
+    Found 2-bit register for signal <dt32khz1>.
+    Found 2-bit register for signal <dt32khz>.
+    Found 11-bit register for signal <cnt_rst>.
+    Found 11-bit adder for signal <cnt_rst[10]_GND_6_o_add_2_OUT> created at line 27.
+    Found 5-bit adder for signal <noise_en_cnt[4]_GND_6_o_add_10_OUT> created at line 49.
+    Found 12-bit adder for signal <cnt_32khz[11]_GND_6_o_add_24_OUT> created at line 96.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  65 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <rst_gen> synthesized.
+
+Synthesizing Unit <random_gen>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\random_gen.v".
+    Summary:
+	no macro.
+Unit <random_gen> synthesized.
+
+Synthesizing Unit <rand_gen>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\rand_gen.v".
+        initval_1 = 24'b010110010010110111110001
+        initval_2 = 24'b100000111100010111010001
+        initval_3 = 24'b001101000001010010010001
+        initval_4 = 24'b111010100110010011110001
+    Found 10-bit register for signal <orbit_log_addr>.
+    Found 11-bit register for signal <orbit_sin_addr>.
+    Summary:
+	inferred  21 D-type flip-flop(s).
+Unit <rand_gen> synthesized.
+
+Synthesizing Unit <inter_feedback_rand_1>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\inter_feedback_rand.v".
+    Found 24-bit register for signal <sr_a>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+Unit <inter_feedback_rand_1> synthesized.
+
+Synthesizing Unit <inter_feedback_rand_2>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\inter_feedback_rand.v".
+    Found 24-bit register for signal <sr_a>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+Unit <inter_feedback_rand_2> synthesized.
+
+Synthesizing Unit <inter_feedback_rand_3>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\inter_feedback_rand.v".
+    Found 24-bit register for signal <sr_a>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+Unit <inter_feedback_rand_3> synthesized.
+
+Synthesizing Unit <inter_feedback_rand_4>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\inter_feedback_rand.v".
+    Found 24-bit register for signal <sr_a>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+Unit <inter_feedback_rand_4> synthesized.
+
+Synthesizing Unit <noise_gen>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\noise_gen.v".
+    Summary:
+	no macro.
+Unit <noise_gen> synthesized.
+
+Synthesizing Unit <gt_generate>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\gt_generate.v".
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\gt_generate.v" line 242: Output port <s_axis_data_tready> of the instance <hilbert> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\gt_generate.v" line 242: Output port <m_axis_data_tvalid> of the instance <hilbert> is unconnected or connected to loadless signal.
+    Found 50-bit register for signal <g_t_delay_50bit>.
+    Found 32-bit register for signal <telementry>.
+    Found 7-bit register for signal <raging_cnt>.
+    Found 7-bit register for signal <raging_cnt1>.
+    Found 32-bit register for signal <raging0>.
+    Found 32-bit register for signal <raging1>.
+    Found 32-bit register for signal <raging2>.
+    Found 32-bit register for signal <raging>.
+    Found 1-bit register for signal <ce_mult10>.
+    Found 33-bit register for signal <q>.
+    Found 64-bit register for signal <n0083>.
+    Found 1-bit register for signal <ce_add>.
+    Found 1-bit register for signal <ce_hilbert>.
+    Found 50-bit register for signal <g_t_hilbert>.
+    Found 1320-bit register for signal <n0086>.
+    Found 33-bit register for signal <g_t_delay1>.
+    Found 33-bit register for signal <g_t_delay>.
+    Found 50-bit register for signal <g_t_hilbert_divide65536>.
+    Found 50-bit register for signal <g_t_hilbert_d_100000>.
+    Found 50-bit register for signal <g_t_hilbert_final>.
+    Found 50-bit register for signal <g_t_delay_50bit1>.
+    Found 31-bit adder for signal <sin_out[30]_GND_18_o_add_9_OUT> created at line 95.
+    Found 7-bit adder for signal <raging_cnt[6]_GND_18_o_add_18_OUT> created at line 111.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 1960 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <gt_generate> synthesized.
+
+Synthesizing Unit <carry>.
+    Related source file is "C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\carry.v".
+    Found 1-bit register for signal <ce_sin>.
+    Found 1-bit register for signal <ce_cosine>.
+    Found 1-bit register for signal <ce_add>.
+    Found 1-bit register for signal <ce>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <carry> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 11-bit adder                                          : 1
+ 12-bit adder                                          : 1
+ 31-bit adder                                          : 1
+ 5-bit adder                                           : 1
+ 7-bit adder                                           : 1
+# Registers                                            : 38
+ 1-bit register                                        : 8
+ 10-bit register                                       : 1
+ 11-bit register                                       : 2
+ 12-bit register                                       : 1
+ 1320-bit register                                     : 1
+ 2-bit register                                        : 2
+ 24-bit register                                       : 4
+ 32-bit register                                       : 6
+ 33-bit register                                       : 3
+ 5-bit register                                        : 1
+ 50-bit register                                       : 6
+ 64-bit register                                       : 1
+ 7-bit register                                        : 2
+# Multiplexers                                         : 2
+ 12-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 6
+ 1-bit xor4                                            : 4
+ 10-bit xor2                                           : 1
+ 11-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/DDS.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/Sin.ngc>.
+Reading core <ipcore_dir/Log.ngc>.
+Reading core <ipcore_dir/Mult_signed.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/multX10.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/add.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/hilbert.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/multi_10.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/mult_sin.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/mult_cos.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/sin_cos.ngc>.
+Reading core <ipcore_dir/addsincos.ngc>.
+Reading Secure Unit <blk00000001>.
+Loading core <DDS> for timing and area information for instance <DDS>.
+Loading core <Sin> for timing and area information for instance <Sin_inst>.
+Loading core <Log> for timing and area information for instance <Log_inst>.
+Loading core <Mult_signed> for timing and area information for instance <Mult_signed_inst>.
+Loading core <multX10> for timing and area information for instance <multX10>.
+Loading core <add> for timing and area information for instance <add>.
+Loading core <hilbert> for timing and area information for instance <hilbert>.
+Loading core <multi_10> for timing and area information for instance <multi_10>.
+Loading core <mult_sin> for timing and area information for instance <mult_sin>.
+Loading core <mult_cos> for timing and area information for instance <mult_cos>.
+Loading core <sin_cos> for timing and area information for instance <sin_cos>.
+Loading core <addsincos> for timing and area information for instance <addsincos>.
+INFO:Xst:1901 - Instance blk00000004 in unit blk00000004 of type DSP48E has been replaced by DSP48E1
+INFO:Xst:2261 - The FF/Latch <g_t_hilbert_d_100000_45> in Unit <gt_generate> is equivalent to the following 4 FFs/Latches, which will be removed : <g_t_hilbert_d_100000_46> <g_t_hilbert_d_100000_47> <g_t_hilbert_d_100000_48> <g_t_hilbert_d_100000_49> 
+INFO:Xst:2261 - The FF/Latch <g_t_delay_50bit1_32> in Unit <gt_generate> is equivalent to the following 17 FFs/Latches, which will be removed : <g_t_delay_50bit1_33> <g_t_delay_50bit1_34> <g_t_delay_50bit1_35> <g_t_delay_50bit1_36> <g_t_delay_50bit1_37> <g_t_delay_50bit1_38> <g_t_delay_50bit1_39> <g_t_delay_50bit1_40> <g_t_delay_50bit1_41> <g_t_delay_50bit1_42> <g_t_delay_50bit1_43> <g_t_delay_50bit1_44> <g_t_delay_50bit1_45> <g_t_delay_50bit1_46> <g_t_delay_50bit1_47> <g_t_delay_50bit1_48> <g_t_delay_50bit1_49> 
+INFO:Xst:2261 - The FF/Latch <raging0_2> in Unit <gt_generate> is equivalent to the following 14 FFs/Latches, which will be removed : <raging0_3> <raging0_6> <raging0_7> <raging0_10> <raging0_11> <raging0_14> <raging0_15> <raging0_18> <raging0_19> <raging0_22> <raging0_23> <raging0_26> <raging0_27> <raging0_30> 
+INFO:Xst:2261 - The FF/Latch <raging0_1> in Unit <gt_generate> is equivalent to the following 15 FFs/Latches, which will be removed : <raging0_4> <raging0_5> <raging0_8> <raging0_9> <raging0_12> <raging0_13> <raging0_16> <raging0_17> <raging0_20> <raging0_21> <raging0_24> <raging0_25> <raging0_28> <raging0_29> <raging0_31> 
+INFO:Xst:2261 - The FF/Latch <g_t_hilbert_final_0> in Unit <gt_generate> is equivalent to the following 2 FFs/Latches, which will be removed : <g_t_hilbert_final_1> <g_t_hilbert_final_2> 
+INFO:Xst:2261 - The FF/Latch <g_t_hilbert_divide65536_33> in Unit <gt_generate> is equivalent to the following 16 FFs/Latches, which will be removed : <g_t_hilbert_divide65536_34> <g_t_hilbert_divide65536_35> <g_t_hilbert_divide65536_36> <g_t_hilbert_divide65536_37> <g_t_hilbert_divide65536_38> <g_t_hilbert_divide65536_39> <g_t_hilbert_divide65536_40> <g_t_hilbert_divide65536_41> <g_t_hilbert_divide65536_42> <g_t_hilbert_divide65536_43> <g_t_hilbert_divide65536_44> <g_t_hilbert_divide65536_45> <g_t_hilbert_divide65536_46> <g_t_hilbert_divide65536_47> <g_t_hilbert_divide65536_48> <g_t_hilbert_divide65536_49> 
+INFO:Xst:2261 - The FF/Latch <g_t_delay_50bit_32> in Unit <gt_generate> is equivalent to the following 17 FFs/Latches, which will be removed : <g_t_delay_50bit_33> <g_t_delay_50bit_34> <g_t_delay_50bit_35> <g_t_delay_50bit_36> <g_t_delay_50bit_37> <g_t_delay_50bit_38> <g_t_delay_50bit_39> <g_t_delay_50bit_40> <g_t_delay_50bit_41> <g_t_delay_50bit_42> <g_t_delay_50bit_43> <g_t_delay_50bit_44> <g_t_delay_50bit_45> <g_t_delay_50bit_46> <g_t_delay_50bit_47> <g_t_delay_50bit_48> <g_t_delay_50bit_49> 
+INFO:Xst:2261 - The FF/Latch <raging1_2> in Unit <gt_generate> is equivalent to the following 14 FFs/Latches, which will be removed : <raging1_3> <raging1_6> <raging1_7> <raging1_10> <raging1_11> <raging1_14> <raging1_15> <raging1_18> <raging1_19> <raging1_22> <raging1_23> <raging1_26> <raging1_27> <raging1_30> 
+INFO:Xst:2261 - The FF/Latch <raging1_1> in Unit <gt_generate> is equivalent to the following 15 FFs/Latches, which will be removed : <raging1_4> <raging1_5> <raging1_8> <raging1_9> <raging1_12> <raging1_13> <raging1_16> <raging1_17> <raging1_20> <raging1_21> <raging1_24> <raging1_25> <raging1_28> <raging1_29> <raging1_31> 
+INFO:Xst:2261 - The FF/Latch <g_t_hilbert_final_48> in Unit <gt_generate> is equivalent to the following FF/Latch, which will be removed : <g_t_hilbert_final_49> 
+WARNING:Xst:1426 - The value init of the FF/Latch dt32khz_0 hinder the constant cleaning in the block rst_gen.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch raging0_0 hinder the constant cleaning in the block gt_generate.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <dt32khz1_0> has a constant value of 1 in block <rst_gen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <g_t_hilbert_final_0> (without init value) has a constant value of 0 in block <gt_generate>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <gt_generate>.
+The following registers are absorbed into counter <raging_cnt>: 1 register on signal <raging_cnt>.
+Unit <gt_generate> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rst_gen>.
+The following registers are absorbed into counter <cnt_32khz>: 1 register on signal <cnt_32khz>.
+The following registers are absorbed into counter <cnt_rst>: 1 register on signal <cnt_rst>.
+The following registers are absorbed into counter <noise_en_cnt>: 1 register on signal <noise_en_cnt>.
+Unit <rst_gen> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 31-bit adder                                          : 1
+# Counters                                             : 4
+ 11-bit up counter                                     : 1
+ 12-bit up counter                                     : 1
+ 5-bit up counter                                      : 1
+ 7-bit up counter                                      : 1
+# Registers                                            : 2111
+ Flip-Flops                                            : 2111
+# Multiplexers                                         : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 6
+ 1-bit xor4                                            : 4
+ 10-bit xor2                                           : 1
+ 11-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch dt32khz_0 hinder the constant cleaning in the block rst_gen.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <dt32khz1_0> has a constant value of 1 in block <rst_gen>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1426 - The value init of the FF/Latch raging0_0 hinder the constant cleaning in the block gt_generate.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1710 - FF/Latch <g_t_hilbert_final_0> (without init value) has a constant value of 0 in block <gt_generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <g_t_hilbert_final_1> (without init value) has a constant value of 0 in block <gt_generate>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <g_t_hilbert_final_2> (without init value) has a constant value of 0 in block <gt_generate>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <g_t_hilbert_d_100000_45> in Unit <gt_generate> is equivalent to the following 4 FFs/Latches, which will be removed : <g_t_hilbert_d_100000_46> <g_t_hilbert_d_100000_47> <g_t_hilbert_d_100000_48> <g_t_hilbert_d_100000_49> 
+INFO:Xst:2261 - The FF/Latch <raging0_2> in Unit <gt_generate> is equivalent to the following 14 FFs/Latches, which will be removed : <raging0_3> <raging0_6> <raging0_7> <raging0_10> <raging0_11> <raging0_14> <raging0_15> <raging0_18> <raging0_19> <raging0_22> <raging0_23> <raging0_26> <raging0_27> <raging0_30> 
+INFO:Xst:2261 - The FF/Latch <g_t_delay_50bit1_32> in Unit <gt_generate> is equivalent to the following 17 FFs/Latches, which will be removed : <g_t_delay_50bit1_33> <g_t_delay_50bit1_34> <g_t_delay_50bit1_35> <g_t_delay_50bit1_36> <g_t_delay_50bit1_37> <g_t_delay_50bit1_38> <g_t_delay_50bit1_39> <g_t_delay_50bit1_40> <g_t_delay_50bit1_41> <g_t_delay_50bit1_42> <g_t_delay_50bit1_43> <g_t_delay_50bit1_44> <g_t_delay_50bit1_45> <g_t_delay_50bit1_46> <g_t_delay_50bit1_47> <g_t_delay_50bit1_48> <g_t_delay_50bit1_49> 
+INFO:Xst:2261 - The FF/Latch <raging0_1> in Unit <gt_generate> is equivalent to the following 15 FFs/Latches, which will be removed : <raging0_4> <raging0_5> <raging0_8> <raging0_9> <raging0_12> <raging0_13> <raging0_16> <raging0_17> <raging0_20> <raging0_21> <raging0_24> <raging0_25> <raging0_28> <raging0_29> <raging0_31> 
+INFO:Xst:2261 - The FF/Latch <g_t_hilbert_divide65536_33> in Unit <gt_generate> is equivalent to the following 16 FFs/Latches, which will be removed : <g_t_hilbert_divide65536_34> <g_t_hilbert_divide65536_35> <g_t_hilbert_divide65536_36> <g_t_hilbert_divide65536_37> <g_t_hilbert_divide65536_38> <g_t_hilbert_divide65536_39> <g_t_hilbert_divide65536_40> <g_t_hilbert_divide65536_41> <g_t_hilbert_divide65536_42> <g_t_hilbert_divide65536_43> <g_t_hilbert_divide65536_44> <g_t_hilbert_divide65536_45> <g_t_hilbert_divide65536_46> <g_t_hilbert_divide65536_47> <g_t_hilbert_divide65536_48> <g_t_hilbert_divide65536_49> 
+INFO:Xst:2261 - The FF/Latch <g_t_delay_50bit_32> in Unit <gt_generate> is equivalent to the following 17 FFs/Latches, which will be removed : <g_t_delay_50bit_33> <g_t_delay_50bit_34> <g_t_delay_50bit_35> <g_t_delay_50bit_36> <g_t_delay_50bit_37> <g_t_delay_50bit_38> <g_t_delay_50bit_39> <g_t_delay_50bit_40> <g_t_delay_50bit_41> <g_t_delay_50bit_42> <g_t_delay_50bit_43> <g_t_delay_50bit_44> <g_t_delay_50bit_45> <g_t_delay_50bit_46> <g_t_delay_50bit_47> <g_t_delay_50bit_48> <g_t_delay_50bit_49> 
+INFO:Xst:2261 - The FF/Latch <raging1_2> in Unit <gt_generate> is equivalent to the following 14 FFs/Latches, which will be removed : <raging1_3> <raging1_6> <raging1_7> <raging1_10> <raging1_11> <raging1_14> <raging1_15> <raging1_18> <raging1_19> <raging1_22> <raging1_23> <raging1_26> <raging1_27> <raging1_30> 
+INFO:Xst:2261 - The FF/Latch <raging1_1> in Unit <gt_generate> is equivalent to the following 15 FFs/Latches, which will be removed : <raging1_4> <raging1_5> <raging1_8> <raging1_9> <raging1_12> <raging1_13> <raging1_16> <raging1_17> <raging1_20> <raging1_21> <raging1_24> <raging1_25> <raging1_28> <raging1_29> <raging1_31> 
+INFO:Xst:2261 - The FF/Latch <g_t_hilbert_final_48> in Unit <gt_generate> is equivalent to the following FF/Latch, which will be removed : <g_t_hilbert_final_49> 
+INFO:Xst:2261 - The FF/Latch <raging2_2> in Unit <gt_generate> is equivalent to the following 14 FFs/Latches, which will be removed : <raging2_3> <raging2_6> <raging2_7> <raging2_10> <raging2_11> <raging2_14> <raging2_15> <raging2_18> <raging2_19> <raging2_22> <raging2_23> <raging2_26> <raging2_27> <raging2_30> 
+INFO:Xst:2261 - The FF/Latch <raging2_1> in Unit <gt_generate> is equivalent to the following 15 FFs/Latches, which will be removed : <raging2_4> <raging2_5> <raging2_8> <raging2_9> <raging2_12> <raging2_13> <raging2_16> <raging2_17> <raging2_20> <raging2_21> <raging2_24> <raging2_25> <raging2_28> <raging2_29> <raging2_31> 
+INFO:Xst:2261 - The FF/Latch <raging_2> in Unit <gt_generate> is equivalent to the following 14 FFs/Latches, which will be removed : <raging_3> <raging_6> <raging_7> <raging_10> <raging_11> <raging_14> <raging_15> <raging_18> <raging_19> <raging_22> <raging_23> <raging_26> <raging_27> <raging_30> 
+INFO:Xst:2261 - The FF/Latch <raging_1> in Unit <gt_generate> is equivalent to the following 15 FFs/Latches, which will be removed : <raging_4> <raging_5> <raging_8> <raging_9> <raging_12> <raging_13> <raging_16> <raging_17> <raging_20> <raging_21> <raging_24> <raging_25> <raging_28> <raging_29> <raging_31> 
+INFO:Xst:2261 - The FF/Latch <mem_raging_0_2> in Unit <gt_generate> is equivalent to the following 14 FFs/Latches, which will be removed : <mem_raging_0_3> <mem_raging_0_6> <mem_raging_0_7> <mem_raging_0_10> <mem_raging_0_11> <mem_raging_0_14> <mem_raging_0_15> <mem_raging_0_18> <mem_raging_0_19> <mem_raging_0_22> <mem_raging_0_23> <mem_raging_0_26> <mem_raging_0_27> <mem_raging_0_30> 
+INFO:Xst:2261 - The FF/Latch <mem_raging_0_1> in Unit <gt_generate> is equivalent to the following 15 FFs/Latches, which will be removed : <mem_raging_0_4> <mem_raging_0_5> <mem_raging_0_8> <mem_raging_0_9> <mem_raging_0_12> <mem_raging_0_13> <mem_raging_0_16> <mem_raging_0_17> <mem_raging_0_20> <mem_raging_0_21> <mem_raging_0_24> <mem_raging_0_25> <mem_raging_0_28> <mem_raging_0_29> <mem_raging_0_31> 
+INFO:Xst:2261 - The FF/Latch <mem_raging_0_33> in Unit <gt_generate> is equivalent to the following 15 FFs/Latches, which will be removed : <mem_raging_0_36> <mem_raging_0_37> <mem_raging_0_40> <mem_raging_0_41> <mem_raging_0_44> <mem_raging_0_45> <mem_raging_0_48> <mem_raging_0_49> <mem_raging_0_52> <mem_raging_0_53> <mem_raging_0_56> <mem_raging_0_57> <mem_raging_0_60> <mem_raging_0_61> <mem_raging_0_63> 
+INFO:Xst:2261 - The FF/Latch <mem_raging_0_34> in Unit <gt_generate> is equivalent to the following 14 FFs/Latches, which will be removed : <mem_raging_0_35> <mem_raging_0_38> <mem_raging_0_39> <mem_raging_0_42> <mem_raging_0_43> <mem_raging_0_46> <mem_raging_0_47> <mem_raging_0_50> <mem_raging_0_51> <mem_raging_0_54> <mem_raging_0_55> <mem_raging_0_58> <mem_raging_0_59> <mem_raging_0_62> 
+
+Optimizing unit <PLL> ...
+
+Optimizing unit <random_gen> ...
+
+Optimizing unit <noise_gen> ...
+
+Optimizing unit <top> ...
+
+Optimizing unit <rst_gen> ...
+
+Optimizing unit <rand_gen> ...
+
+Optimizing unit <inter_feedback_rand_1> ...
+
+Optimizing unit <inter_feedback_rand_2> ...
+
+Optimizing unit <inter_feedback_rand_3> ...
+
+Optimizing unit <inter_feedback_rand_4> ...
+
+Optimizing unit <gt_generate> ...
+
+Optimizing unit <carry> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 1.
+
+Final Macro Processing ...
+
+Processing Unit <gt_generate> :
+	Found 3-bit shift register for signal <raging_0>.
+	Found 3-bit shift register for signal <raging_1>.
+	Found 3-bit shift register for signal <raging_2>.
+	Found 42-bit shift register for signal <g_t_delay_0>.
+	Found 42-bit shift register for signal <g_t_delay_1>.
+	Found 42-bit shift register for signal <g_t_delay_2>.
+	Found 42-bit shift register for signal <g_t_delay_3>.
+	Found 42-bit shift register for signal <g_t_delay_4>.
+	Found 42-bit shift register for signal <g_t_delay_5>.
+	Found 42-bit shift register for signal <g_t_delay_6>.
+	Found 42-bit shift register for signal <g_t_delay_7>.
+	Found 42-bit shift register for signal <g_t_delay_8>.
+	Found 42-bit shift register for signal <g_t_delay_9>.
+	Found 42-bit shift register for signal <g_t_delay_10>.
+	Found 42-bit shift register for signal <g_t_delay_11>.
+	Found 42-bit shift register for signal <g_t_delay_12>.
+	Found 42-bit shift register for signal <g_t_delay_13>.
+	Found 42-bit shift register for signal <g_t_delay_14>.
+	Found 42-bit shift register for signal <g_t_delay_15>.
+	Found 42-bit shift register for signal <g_t_delay_16>.
+	Found 42-bit shift register for signal <g_t_delay_17>.
+	Found 42-bit shift register for signal <g_t_delay_18>.
+	Found 42-bit shift register for signal <g_t_delay_19>.
+	Found 42-bit shift register for signal <g_t_delay_20>.
+	Found 42-bit shift register for signal <g_t_delay_21>.
+	Found 42-bit shift register for signal <g_t_delay_22>.
+	Found 42-bit shift register for signal <g_t_delay_23>.
+	Found 42-bit shift register for signal <g_t_delay_24>.
+	Found 42-bit shift register for signal <g_t_delay_25>.
+	Found 42-bit shift register for signal <g_t_delay_26>.
+	Found 42-bit shift register for signal <g_t_delay_27>.
+	Found 42-bit shift register for signal <g_t_delay_28>.
+	Found 42-bit shift register for signal <g_t_delay_29>.
+	Found 42-bit shift register for signal <g_t_delay_30>.
+	Found 42-bit shift register for signal <g_t_delay_31>.
+	Found 42-bit shift register for signal <g_t_delay_32>.
+Unit <gt_generate> processed.
+
+Processing Unit <inter_feedback_rand_2_inst> :
+	Found 4-bit shift register for signal <sr_a_18>.
+INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <sr_a_14> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <inter_feedback_rand_2_inst> processed.
+
+Processing Unit <inter_feedback_rand_3_inst> :
+INFO:Xst:741 - HDL ADVISOR - A 5-bit shift register was found for signal <sr_a_13> and currently occupies 5 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <inter_feedback_rand_3_inst> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 514
+ Flip-Flops                                            : 514
+# Shift Registers                                      : 37
+ 3-bit shift register                                  : 3
+ 4-bit shift register                                  : 1
+ 42-bit shift register                                 : 33
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 9610
+#      GND                         : 45
+#      INV                         : 35
+#      LUT1                        : 24
+#      LUT2                        : 1469
+#      LUT3                        : 203
+#      LUT4                        : 1281
+#      LUT5                        : 15
+#      LUT6                        : 63
+#      MULT_AND                    : 1218
+#      MUXCY                       : 2589
+#      VCC                         : 40
+#      XORCY                       : 2628
+# FlipFlops/Latches                : 4265
+#      FD                          : 245
+#      FDE                         : 3177
+#      FDR                         : 354
+#      FDRE                        : 436
+#      FDS                         : 51
+#      FDSE                        : 2
+# RAMS                             : 6
+#      RAMB18E1                    : 2
+#      RAMB36E1                    : 4
+# Shift Registers                  : 2698
+#      SRLC16E                     : 2302
+#      SRLC32E                     : 396
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 1
+#      IBUFGDS                     : 1
+# DSPs                             : 56
+#      DSP48E1                     : 56
+# Others                           : 1
+#      MMCM_ADV                    : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx240tff1156-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            4265  out of  301440     1%  
+ Number of Slice LUTs:                 5788  out of  150720     3%  
+    Number used as Logic:              3090  out of  150720     2%  
+    Number used as Memory:             2698  out of  58400     4%  
+       Number used as SRL:             2698
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   9728
+   Number with an unused Flip Flop:    5463  out of   9728    56%  
+   Number with an unused LUT:          3940  out of   9728    40%  
+   Number of fully used LUT-FF pairs:   325  out of   9728     3%  
+   Number of unique control sets:        22
+
+IO Utilization: 
+ Number of IOs:                           2
+ Number of bonded IOBs:                   0  out of    600     0%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                5  out of    416     1%  
+    Number using Block RAM only:          5
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+ Number of DSP48E1s:                     56  out of    768     7%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_P                              | MMCM_ADV:CLKOUT0       | 7025  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                           | Buffer(FF name)                                                                                                                                                    | Load  |
+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+DDS/blk00000001/sig00000024(DDS/blk00000001/blk00000002:P)               | NONE(DDS/blk00000001/blk00000229)                                                                                                                                  | 124   |
+carry/sin_cos/sig00000001(carry/sin_cos/blk00000001:P)                   | NONE(carry/sin_cos/blk000001f1)                                                                                                                                    | 124   |
+DDS/blk00000001/debug_phase_nd(DDS/blk00000001/blk00000003:G)            | NONE(DDS/blk00000001/blk00000229)                                                                                                                                  | 72    |
+carry/sin_cos/sig00000002(carry/sin_cos/blk00000002:G)                   | NONE(carry/sin_cos/blk000001f1)                                                                                                                                    | 72    |
+random_gen/noise_gen/Log_inst/N1(random_gen/noise_gen/Log_inst/XST_GND:G)| NONE(random_gen/noise_gen/Log_inst/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram)| 4     |
+random_gen/noise_gen/Sin_inst/N1(random_gen/noise_gen/Sin_inst/XST_GND:G)| NONE(random_gen/noise_gen/Sin_inst/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram)| 4     |
+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.761ns (Maximum Frequency: 362.188MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_P'
+  Clock period: 2.761ns (frequency: 362.188MHz)
+  Total number of paths / destination ports: 3558962255 / 18604
+-------------------------------------------------------------------------
+Delay:               6.902ns (Levels of Logic = 57)
+  Source:            gt_generate/telementry_0 (FF)
+  Destination:       sec_inst (FF)
+  Source Clock:      CLK_P rising 0.4X
+  Destination Clock: CLK_P rising 0.4X
+
+  Data Path: gt_generate/telementry_0 to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            18   0.375   0.750  telementry_0 (telementry_0)
+     begin scope: 'gt_generate/multX10:b<0>'
+     begin scope: 'gt_generate/multX10/blk00000001:B<0>'
+     SEC:in->out           1   0.068   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.290   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           0   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           2   0.239   0.423  sec_inst (sec_net)
+     SEC:in->out           1   0.068   0.000  sec_inst (sec_net)
+     SEC:in->out           0   0.290   0.000  sec_inst (sec_net)
+     SEC:in->out           5   0.239   0.518  sec_inst (sec_net)
+     SEC:in->out           1   0.068   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.290   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out           0   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out          10   0.239   0.550  sec_inst (sec_net)
+     SEC:in->out           1   0.068   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.290   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.020   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.239   0.491  sec_inst (sec_net)
+     SEC:in->out           1   0.068   0.000  sec_inst (sec_net)
+     SEC:in->out           0   0.290   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.239   0.000  sec_inst (sec_net)
+     SEC:in                    0.011          sec_inst
+    ----------------------------------------
+    Total                      6.902ns (4.170ns logic, 2.732ns route)
+                                       (60.4% logic, 39.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK_P
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_P          |    6.902|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.76 secs
+ 
+--> 
+
+Total memory usage is 254152 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :   46 (   0 filtered)
+

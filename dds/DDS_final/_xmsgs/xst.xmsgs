@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\Sin.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">Sin</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\ipcore_dir\Log.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">Log</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\gt_generate.v" Line 247: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_data_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">40</arg>-bit while actual signal size is <arg fmt="%d" index="1">33</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v" Line 104: Assignment to <arg fmt="%s" index="1">p</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">86</arg>: Output port &lt;<arg fmt="%s" index="3">m_axis_data_tvalid</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DDS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">telementry</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gt_generate</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">raging</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gt_generate</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gt_generate</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">p</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gt_generate</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">g_t</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gt_generate</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">g_t_hilbert</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gt_generate</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">g_t_hilbert_d_100000</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gt_generate</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">g_t_delay</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gt_generate</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">113</arg>: Output port &lt;<arg fmt="%s" index="3">cosine</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">carry</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">113</arg>: Output port &lt;<arg fmt="%s" index="3">sine</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">carry</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">113</arg>: Output port &lt;<arg fmt="%s" index="3">g_t_hilbertXsin</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">carry</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">113</arg>: Output port &lt;<arg fmt="%s" index="3">g_t_delayXcos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">carry</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\top.v</arg>&quot; line <arg fmt="%s" index="2">113</arg>: Output port &lt;<arg fmt="%s" index="3">result</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">carry</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\gt_generate.v</arg>&quot; line <arg fmt="%s" index="2">242</arg>: Output port &lt;<arg fmt="%s" index="3">s_axis_data_tready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">hilbert</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Matthew\Desktop\tpzxh\dds\DDS1_20181012\gt_generate.v</arg>&quot; line <arg fmt="%s" index="2">242</arg>: Output port &lt;<arg fmt="%s" index="3">m_axis_data_tvalid</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">hilbert</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">blk00000004</arg> in unit <arg fmt="%s" index="2">blk00000004</arg> of type <arg fmt="%s" index="3">DSP48E</arg> has been replaced by <arg fmt="%s" index="4">DSP48E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_d_100000_45</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_hilbert_d_100000_46&gt; &lt;g_t_hilbert_d_100000_47&gt; &lt;g_t_hilbert_d_100000_48&gt; &lt;g_t_hilbert_d_100000_49&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_delay_50bit1_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">17 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_delay_50bit1_33&gt; &lt;g_t_delay_50bit1_34&gt; &lt;g_t_delay_50bit1_35&gt; &lt;g_t_delay_50bit1_36&gt; &lt;g_t_delay_50bit1_37&gt; &lt;g_t_delay_50bit1_38&gt; &lt;g_t_delay_50bit1_39&gt; &lt;g_t_delay_50bit1_40&gt; &lt;g_t_delay_50bit1_41&gt; &lt;g_t_delay_50bit1_42&gt; &lt;g_t_delay_50bit1_43&gt; &lt;g_t_delay_50bit1_44&gt; &lt;g_t_delay_50bit1_45&gt; &lt;g_t_delay_50bit1_46&gt; &lt;g_t_delay_50bit1_47&gt; &lt;g_t_delay_50bit1_48&gt; &lt;g_t_delay_50bit1_49&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging0_3&gt; &lt;raging0_6&gt; &lt;raging0_7&gt; &lt;raging0_10&gt; &lt;raging0_11&gt; &lt;raging0_14&gt; &lt;raging0_15&gt; &lt;raging0_18&gt; &lt;raging0_19&gt; &lt;raging0_22&gt; &lt;raging0_23&gt; &lt;raging0_26&gt; &lt;raging0_27&gt; &lt;raging0_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging0_4&gt; &lt;raging0_5&gt; &lt;raging0_8&gt; &lt;raging0_9&gt; &lt;raging0_12&gt; &lt;raging0_13&gt; &lt;raging0_16&gt; &lt;raging0_17&gt; &lt;raging0_20&gt; &lt;raging0_21&gt; &lt;raging0_24&gt; &lt;raging0_25&gt; &lt;raging0_28&gt; &lt;raging0_29&gt; &lt;raging0_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_final_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_hilbert_final_1&gt; &lt;g_t_hilbert_final_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_divide65536_33</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">16 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_hilbert_divide65536_34&gt; &lt;g_t_hilbert_divide65536_35&gt; &lt;g_t_hilbert_divide65536_36&gt; &lt;g_t_hilbert_divide65536_37&gt; &lt;g_t_hilbert_divide65536_38&gt; &lt;g_t_hilbert_divide65536_39&gt; &lt;g_t_hilbert_divide65536_40&gt; &lt;g_t_hilbert_divide65536_41&gt; &lt;g_t_hilbert_divide65536_42&gt; &lt;g_t_hilbert_divide65536_43&gt; &lt;g_t_hilbert_divide65536_44&gt; &lt;g_t_hilbert_divide65536_45&gt; &lt;g_t_hilbert_divide65536_46&gt; &lt;g_t_hilbert_divide65536_47&gt; &lt;g_t_hilbert_divide65536_48&gt; &lt;g_t_hilbert_divide65536_49&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_delay_50bit_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">17 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_delay_50bit_33&gt; &lt;g_t_delay_50bit_34&gt; &lt;g_t_delay_50bit_35&gt; &lt;g_t_delay_50bit_36&gt; &lt;g_t_delay_50bit_37&gt; &lt;g_t_delay_50bit_38&gt; &lt;g_t_delay_50bit_39&gt; &lt;g_t_delay_50bit_40&gt; &lt;g_t_delay_50bit_41&gt; &lt;g_t_delay_50bit_42&gt; &lt;g_t_delay_50bit_43&gt; &lt;g_t_delay_50bit_44&gt; &lt;g_t_delay_50bit_45&gt; &lt;g_t_delay_50bit_46&gt; &lt;g_t_delay_50bit_47&gt; &lt;g_t_delay_50bit_48&gt; &lt;g_t_delay_50bit_49&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging1_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging1_3&gt; &lt;raging1_6&gt; &lt;raging1_7&gt; &lt;raging1_10&gt; &lt;raging1_11&gt; &lt;raging1_14&gt; &lt;raging1_15&gt; &lt;raging1_18&gt; &lt;raging1_19&gt; &lt;raging1_22&gt; &lt;raging1_23&gt; &lt;raging1_26&gt; &lt;raging1_27&gt; &lt;raging1_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging1_4&gt; &lt;raging1_5&gt; &lt;raging1_8&gt; &lt;raging1_9&gt; &lt;raging1_12&gt; &lt;raging1_13&gt; &lt;raging1_16&gt; &lt;raging1_17&gt; &lt;raging1_20&gt; &lt;raging1_21&gt; &lt;raging1_24&gt; &lt;raging1_25&gt; &lt;raging1_28&gt; &lt;raging1_29&gt; &lt;raging1_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_final_48</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_hilbert_final_49&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">dt32khz_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">rst_gen</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">raging0_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">gt_generate</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">dt32khz1_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">rst_gen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_final_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gt_generate</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">dt32khz_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">rst_gen</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">dt32khz1_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">rst_gen</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">raging0_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">gt_generate</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_final_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gt_generate</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_final_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gt_generate</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_final_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gt_generate</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_d_100000_45</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_hilbert_d_100000_46&gt; &lt;g_t_hilbert_d_100000_47&gt; &lt;g_t_hilbert_d_100000_48&gt; &lt;g_t_hilbert_d_100000_49&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging0_3&gt; &lt;raging0_6&gt; &lt;raging0_7&gt; &lt;raging0_10&gt; &lt;raging0_11&gt; &lt;raging0_14&gt; &lt;raging0_15&gt; &lt;raging0_18&gt; &lt;raging0_19&gt; &lt;raging0_22&gt; &lt;raging0_23&gt; &lt;raging0_26&gt; &lt;raging0_27&gt; &lt;raging0_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_delay_50bit1_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">17 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_delay_50bit1_33&gt; &lt;g_t_delay_50bit1_34&gt; &lt;g_t_delay_50bit1_35&gt; &lt;g_t_delay_50bit1_36&gt; &lt;g_t_delay_50bit1_37&gt; &lt;g_t_delay_50bit1_38&gt; &lt;g_t_delay_50bit1_39&gt; &lt;g_t_delay_50bit1_40&gt; &lt;g_t_delay_50bit1_41&gt; &lt;g_t_delay_50bit1_42&gt; &lt;g_t_delay_50bit1_43&gt; &lt;g_t_delay_50bit1_44&gt; &lt;g_t_delay_50bit1_45&gt; &lt;g_t_delay_50bit1_46&gt; &lt;g_t_delay_50bit1_47&gt; &lt;g_t_delay_50bit1_48&gt; &lt;g_t_delay_50bit1_49&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging0_4&gt; &lt;raging0_5&gt; &lt;raging0_8&gt; &lt;raging0_9&gt; &lt;raging0_12&gt; &lt;raging0_13&gt; &lt;raging0_16&gt; &lt;raging0_17&gt; &lt;raging0_20&gt; &lt;raging0_21&gt; &lt;raging0_24&gt; &lt;raging0_25&gt; &lt;raging0_28&gt; &lt;raging0_29&gt; &lt;raging0_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_divide65536_33</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">16 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_hilbert_divide65536_34&gt; &lt;g_t_hilbert_divide65536_35&gt; &lt;g_t_hilbert_divide65536_36&gt; &lt;g_t_hilbert_divide65536_37&gt; &lt;g_t_hilbert_divide65536_38&gt; &lt;g_t_hilbert_divide65536_39&gt; &lt;g_t_hilbert_divide65536_40&gt; &lt;g_t_hilbert_divide65536_41&gt; &lt;g_t_hilbert_divide65536_42&gt; &lt;g_t_hilbert_divide65536_43&gt; &lt;g_t_hilbert_divide65536_44&gt; &lt;g_t_hilbert_divide65536_45&gt; &lt;g_t_hilbert_divide65536_46&gt; &lt;g_t_hilbert_divide65536_47&gt; &lt;g_t_hilbert_divide65536_48&gt; &lt;g_t_hilbert_divide65536_49&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_delay_50bit_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">17 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_delay_50bit_33&gt; &lt;g_t_delay_50bit_34&gt; &lt;g_t_delay_50bit_35&gt; &lt;g_t_delay_50bit_36&gt; &lt;g_t_delay_50bit_37&gt; &lt;g_t_delay_50bit_38&gt; &lt;g_t_delay_50bit_39&gt; &lt;g_t_delay_50bit_40&gt; &lt;g_t_delay_50bit_41&gt; &lt;g_t_delay_50bit_42&gt; &lt;g_t_delay_50bit_43&gt; &lt;g_t_delay_50bit_44&gt; &lt;g_t_delay_50bit_45&gt; &lt;g_t_delay_50bit_46&gt; &lt;g_t_delay_50bit_47&gt; &lt;g_t_delay_50bit_48&gt; &lt;g_t_delay_50bit_49&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging1_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging1_3&gt; &lt;raging1_6&gt; &lt;raging1_7&gt; &lt;raging1_10&gt; &lt;raging1_11&gt; &lt;raging1_14&gt; &lt;raging1_15&gt; &lt;raging1_18&gt; &lt;raging1_19&gt; &lt;raging1_22&gt; &lt;raging1_23&gt; &lt;raging1_26&gt; &lt;raging1_27&gt; &lt;raging1_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging1_4&gt; &lt;raging1_5&gt; &lt;raging1_8&gt; &lt;raging1_9&gt; &lt;raging1_12&gt; &lt;raging1_13&gt; &lt;raging1_16&gt; &lt;raging1_17&gt; &lt;raging1_20&gt; &lt;raging1_21&gt; &lt;raging1_24&gt; &lt;raging1_25&gt; &lt;raging1_28&gt; &lt;raging1_29&gt; &lt;raging1_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">g_t_hilbert_final_48</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_t_hilbert_final_49&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging2_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging2_3&gt; &lt;raging2_6&gt; &lt;raging2_7&gt; &lt;raging2_10&gt; &lt;raging2_11&gt; &lt;raging2_14&gt; &lt;raging2_15&gt; &lt;raging2_18&gt; &lt;raging2_19&gt; &lt;raging2_22&gt; &lt;raging2_23&gt; &lt;raging2_26&gt; &lt;raging2_27&gt; &lt;raging2_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging2_4&gt; &lt;raging2_5&gt; &lt;raging2_8&gt; &lt;raging2_9&gt; &lt;raging2_12&gt; &lt;raging2_13&gt; &lt;raging2_16&gt; &lt;raging2_17&gt; &lt;raging2_20&gt; &lt;raging2_21&gt; &lt;raging2_24&gt; &lt;raging2_25&gt; &lt;raging2_28&gt; &lt;raging2_29&gt; &lt;raging2_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging_3&gt; &lt;raging_6&gt; &lt;raging_7&gt; &lt;raging_10&gt; &lt;raging_11&gt; &lt;raging_14&gt; &lt;raging_15&gt; &lt;raging_18&gt; &lt;raging_19&gt; &lt;raging_22&gt; &lt;raging_23&gt; &lt;raging_26&gt; &lt;raging_27&gt; &lt;raging_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">raging_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;raging_4&gt; &lt;raging_5&gt; &lt;raging_8&gt; &lt;raging_9&gt; &lt;raging_12&gt; &lt;raging_13&gt; &lt;raging_16&gt; &lt;raging_17&gt; &lt;raging_20&gt; &lt;raging_21&gt; &lt;raging_24&gt; &lt;raging_25&gt; &lt;raging_28&gt; &lt;raging_29&gt; &lt;raging_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mem_raging_0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mem_raging_0_3&gt; &lt;mem_raging_0_6&gt; &lt;mem_raging_0_7&gt; &lt;mem_raging_0_10&gt; &lt;mem_raging_0_11&gt; &lt;mem_raging_0_14&gt; &lt;mem_raging_0_15&gt; &lt;mem_raging_0_18&gt; &lt;mem_raging_0_19&gt; &lt;mem_raging_0_22&gt; &lt;mem_raging_0_23&gt; &lt;mem_raging_0_26&gt; &lt;mem_raging_0_27&gt; &lt;mem_raging_0_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mem_raging_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mem_raging_0_4&gt; &lt;mem_raging_0_5&gt; &lt;mem_raging_0_8&gt; &lt;mem_raging_0_9&gt; &lt;mem_raging_0_12&gt; &lt;mem_raging_0_13&gt; &lt;mem_raging_0_16&gt; &lt;mem_raging_0_17&gt; &lt;mem_raging_0_20&gt; &lt;mem_raging_0_21&gt; &lt;mem_raging_0_24&gt; &lt;mem_raging_0_25&gt; &lt;mem_raging_0_28&gt; &lt;mem_raging_0_29&gt; &lt;mem_raging_0_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mem_raging_0_33</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mem_raging_0_36&gt; &lt;mem_raging_0_37&gt; &lt;mem_raging_0_40&gt; &lt;mem_raging_0_41&gt; &lt;mem_raging_0_44&gt; &lt;mem_raging_0_45&gt; &lt;mem_raging_0_48&gt; &lt;mem_raging_0_49&gt; &lt;mem_raging_0_52&gt; &lt;mem_raging_0_53&gt; &lt;mem_raging_0_56&gt; &lt;mem_raging_0_57&gt; &lt;mem_raging_0_60&gt; &lt;mem_raging_0_61&gt; &lt;mem_raging_0_63&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mem_raging_0_34</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gt_generate</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mem_raging_0_35&gt; &lt;mem_raging_0_38&gt; &lt;mem_raging_0_39&gt; &lt;mem_raging_0_42&gt; &lt;mem_raging_0_43&gt; &lt;mem_raging_0_46&gt; &lt;mem_raging_0_47&gt; &lt;mem_raging_0_50&gt; &lt;mem_raging_0_51&gt; &lt;mem_raging_0_54&gt; &lt;mem_raging_0_55&gt; &lt;mem_raging_0_58&gt; &lt;mem_raging_0_59&gt; &lt;mem_raging_0_62&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="old" >HDL ADVISOR - A <arg fmt="%d" index="1">4</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">sr_a_14</arg>&gt; and currently occupies <arg fmt="%d" index="3">4</arg> logic cells (<arg fmt="%d" index="4">2</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="old" >HDL ADVISOR - A <arg fmt="%d" index="1">5</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">sr_a_13</arg>&gt; and currently occupies <arg fmt="%d" index="3">5</arg> logic cells (<arg fmt="%d" index="4">2</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+</messages>
+

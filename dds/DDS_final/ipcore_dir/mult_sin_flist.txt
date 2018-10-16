@@ -1,0 +1,15 @@
+# Output products list for <mult_sin>
+_xmsgs\pn_parser.xmsgs
+mult_sin.asy
+mult_sin.gise
+mult_sin.ngc
+mult_sin.sym
+mult_sin.v
+mult_sin.veo
+mult_sin.xco
+mult_sin.xise
+mult_sin\doc\mult_gen_ds255.pdf
+mult_sin\doc\mult_gen_v11_2_readme.txt
+mult_sin\doc\mult_gen_v11_2_vinfo.html
+mult_sin_flist.txt
+mult_sin_xmdf.tcl

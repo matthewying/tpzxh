@@ -1,0 +1,15 @@
+# Output products list for <addsincos>
+_xmsgs\pn_parser.xmsgs
+addsincos.asy
+addsincos.gise
+addsincos.ngc
+addsincos.sym
+addsincos.v
+addsincos.veo
+addsincos.xco
+addsincos.xise
+addsincos\doc\c_addsub_v11_0_readme.txt
+addsincos\doc\c_addsub_v11_0_vinfo.html
+addsincos\doc\ds214_addsub.pdf
+addsincos_flist.txt
+addsincos_xmdf.tcl

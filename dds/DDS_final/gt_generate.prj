@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/multX10.v"
+verilog work "ipcore_dir/hilbert.v"
+verilog work "ipcore_dir/add.v"
+verilog work "gt_generate.v"
